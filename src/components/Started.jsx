@@ -8,7 +8,7 @@ function Started(){
         lName: "",
         email: ""
     }); //name is an obj of fName, lName
-
+    //----------------------------
 
     function handleClick(event){
         setHeadingText("Hello " + contact.fName + " " + contact.lName + ", you have submitted")
@@ -61,6 +61,7 @@ function Started(){
 
 
     }
+    //----------------------------
 
     return (
         <div className="container">
